@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+::placeholder {
+  color: white;
+}
+
+body {
+  background: url("../image/home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+form {
+  border: 2px solid white;
+  width: 30rem;
+  margin: 5rem auto;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+}
+form .title-form {
+  margin: 1rem;
+  text-align: center;
+}
+.title-form h1 {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+form .head-form {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: transparent;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 70%;
+}
+
+form .body-form {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.body-form a {
+  padding: 4rem;
+  text-decoration: none;
+  color: white;
+}
+
+.body-form input {
+  color: white;
+}
+
+.icon a {
+  margin: 0 1rem;
+}
+
+.s-con {
+  height: 1.5rem;
+}
